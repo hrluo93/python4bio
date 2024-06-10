@@ -15,6 +15,6 @@ with open(args.input, 'r') as file:
     with open(args.output, 'w') as outfile:
         for record in SeqIO.parse(file, 'fasta'):
             # Search false protein Sequences
-            if re.search(r'[A-Za-z]+\.[A-Za-z]+', str(record.seq)):
+            if re.search(r'[A-Za-z]+(\.+)[A-Za-z]+', str(record.seq)):
                 # Output file table
                 outfile.write(f"ID: {record.id}, Sequence: {record.seq}\n")
