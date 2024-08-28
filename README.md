@@ -10,3 +10,7 @@ Usage: python false-gene-model.py -i input.longest.faa -o output.table
 3. selective-sweep-vcftools.py is used to identify selective sweep region using Fst+Pi_ratio from the vcftools output.
    
    Before usage, covert negative Fst to 0 and change two Pi output files' line1 header col name PI to PIA and PIB, respectively.
+
+4. Ttest-Utest-permutation-bootstrap-pairedTtest.py
+
+   T-test, U-test, permutation test, bootstrap test, and paired T-test all in one Python script.
