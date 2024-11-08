@@ -3,7 +3,7 @@
 
 Usage: python selective-sweep-ggpopwind.py -i popgenWindows-result.csv -o1 aares.csv -o2 popA-regionFstPi.csv -o3 popB-regionFstPi.csv -o4 popA-regiondxyPi.csv -o5 popB-regiondxyPi.csv 
 
-2. Search false gene model in the longest protein Sequences from Gffread.
+2. Search false gene model in the longest protein Sequences from Gffread -y.
    
 Usage: python false-gene-model.py -i input.longest.faa -o output.table
 
