@@ -17,4 +17,4 @@ Usage: python false-gene-model.py -i input.longest.faa -o output.table
 
 5. sort_paml: Sort multiline (ParaAT) or interleaved paml.
 
-6. gff_to_slim.py -i longest.transcipts.gff -g chrlen.g > gff.slim.input     where -g chrlen.g from cut -f 1,2 genome.fai
+6. gff_to_slim.py -i longest.transcipts.gff -g chrlen.g > gff.slim.input  (where -g chrlen.g from cut -f 1,2 genome.fai)
